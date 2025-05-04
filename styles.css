@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    font-size:14px;
+    padding-right: 70px;
+    padding-bottom: -20px;
+
+}
+header h1 {
+    margin: 0;
+}
+header p {
+    margin: 0;
+    font-style: italic;
+}
+section {
+    padding: 2em;
+    background-color: #fff;
+    margin: 1em 0;
+}
+#about img {
+    width: 300px;
+    height: 300px;
+    border-bottom-left-radius: 40% ;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+#about{
+    padding-top: 10%;
+    display: flex;
+    font-size :20px;
+}
+#about div p{
+    padding-left: 30px;
+    padding-top: 10%;
+    text-align: justify;
+    justify-content: initial;
+}
+#about h1{
+    text-align: center;
+}
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+#skills ul li {
+    background-color: #f4f4f4;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 5px;
+    padding-right:50%;
+    background-color: blueviolet;
+    margin-right: 60%;
+    color: white;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+}
+header{
+    display: flex;
+}
+header h3{
+    padding: 4px;
+    margin-left: 20px;
+}
+header h1{
+    padding-right: 370px;
+    padding-left: 25px;
+    padding-top: 6px;
+}
+#Home img{
+
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+#Home{
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+#Home a{
+    color: white;
+    text-decoration: none;
+} 
+button{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 87px;
+    height: 43px;
+}
+.icons {
+    display: flex;
+    width: 130px;
+    height: 130px;
+}
+a{
+    padding-right: 10px;
+}
+header h3 a{
+    text-decoration: none;
+    color: white;
+}
+#skills{
+    padding-top: 10%;
+}
+#skills h2{
+    background-color: #333;
+    color: white;
+    text-align: center;
+
+}
+#skills img{
+    width: 20px;
+    height: 20px;
+}
+.Java {
+    display:flex; 
+    width: 200px;
+}
+.oracle{
+    display:flex; 
+    width: 180px;
+}
+.C Language{
+    display:flex; 
+    width: 160px;
+}
+.html{
+    display:flex; 
+    width: 210px;
+}
+.css{
+    display:flex; 
+    width: 210px;
+}
+.JavaScript{
+    display:flex; 
+    width: 180px;
+}
+li img {
+    padding-left:25px;
+}
+.work{
+    font-size:20px;
+    background-color:rgb(138, 59, 138);
+    padding-top: 10%;
+    color: white;
+}
+
+.project img{
+    padding-right: 70%;
+    width: 1500px;
+    height: 500px;
+    background-image: url("project\ img.jpg");
+    background-size: cover;
+    color: rgb(10, 10, 10);
+}
+#projects{
+    font-size: 20px;
+    background-color: #333;
+    color: #ddd;
+    padding-top: 6%;
+}
+.project span{
+    background-color: cadetblue;
+    font-weight: bold;
+    color: chartreuse;
+}
+#resume{
+    border-bottom: none;
+    background-color: azure;
+}
+#contact h4{
+    padding-right: 10px;
+}
+input{
+    padding-left: 10px;
+}
+form{
+    border: 2px solid rgb(218, 214, 214);
+    padding-left: 40%;
+    background-color: rgb(228, 108, 28);
+    border-radius: 5px;
+}
+#Home table .Profile img{
+    padding: 20%;
+    height: 325px;
+    width: 425px;
+    border-top-right-radius:350px;
+    border-bottom-left-radius:450px;
+   
+    padding-left: 350px;
+}
+#Home table .git img
+{
+    width:30px;
+    
+}
